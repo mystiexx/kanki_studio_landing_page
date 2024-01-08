@@ -1,0 +1,15 @@
+@import url("https://fonts.cdnfonts.com/css/jetbrains-mono-2");
+
+.nav {
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-family: "JetBrains Mono";
+}
+
+.nav_active {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: "JetBrains Mono";
+}
