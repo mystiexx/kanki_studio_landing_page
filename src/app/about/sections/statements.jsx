@@ -13,7 +13,8 @@ const Statements = () => {
       <Container maxW="container.xl">
         <Grid
           templateColumns={{ base: "auto", md: "repeat(2,1fr)" }}
-          gap="40px"
+          gap={{ base: "24px", md: "40px" }}
+          h={{ base: "auto", md: "30vh" }}
         >
           <GridItem>
             <Text
@@ -39,7 +40,7 @@ const Statements = () => {
         <Flex
           flexDir={{ base: "column-reverse", md: "row" }}
           gap="40px"
-          py="200px"
+          py="100px"
         >
           <Box w="full">
             <Grid

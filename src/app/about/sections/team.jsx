@@ -4,6 +4,7 @@ import { COLORS } from "../../../enums/colors";
 import { TeamCard } from "../../../components/card";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { team } from "../../../enums/enums";
 
 const Team = () => {
   useEffect(() => {
@@ -31,12 +32,12 @@ const Team = () => {
 
         <GridItem>
           <Grid
-            templateColumns={{ base: "auto", md: "repeat(3,1fr)" }}
+            templateColumns={{ base: "repeat(2, 1fr)", md: "repeat(3,1fr)" }}
             gap="30px"
           >
-            {[...new Array(6)].map((_, idx) => (
+            {team.map((data, idx) => (
               <GridItem key={idx} data-aos="fade-up" data-aos-duration="2000">
-                <TeamCard />
+                <TeamCard content={data} />
               </GridItem>
             ))}
           </Grid>
