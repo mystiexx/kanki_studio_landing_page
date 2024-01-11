@@ -40,7 +40,11 @@ const Projects = () => {
           data-aos="fade-right"
           data-aos-duration="2000"
         >
-          <Box h="3px" w="100px" bg={COLORS.white} />
+          <Box
+            h="3px"
+            w="100px"
+            bgGradient={`linear(to-l, ${COLORS.orange}, ${COLORS.orange_50}, ${COLORS.yellow})`}
+          />
           <Text>Featured Projects</Text>
         </Box>
         <Box display="flex" gap="10px" alignItems={"center"}>

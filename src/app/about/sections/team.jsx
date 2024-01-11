@@ -20,7 +20,7 @@ const Team = () => {
           <Text
             fontSize={14}
             mt="10px"
-            color={COLORS.gray}
+            color={COLORS.grey}
             data-aos="fade-right"
             data-aos-duration="2000"
           >

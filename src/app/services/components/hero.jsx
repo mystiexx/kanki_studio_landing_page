@@ -23,7 +23,7 @@ const Hero = () => {
         </Text>
         <Text
           mt="7px"
-          color={COLORS.gray}
+          color={COLORS.grey}
           data-aos="fade-left"
           data-aos-duration="2000"
         >

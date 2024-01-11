@@ -27,7 +27,7 @@ const Statements = () => {
           </GridItem>
           <GridItem>
             <Text
-              color={COLORS.gray}
+              color={COLORS.grey}
               data-aos="fade-left"
               data-aos-duration="2000"
             >
@@ -51,28 +51,28 @@ const Statements = () => {
                 <Text fontWeight={800} mb="16px">
                   Innovation
                 </Text>
-                <Text color={COLORS.gray}>
+                <Text color={COLORS.grey}>
                   Embracing the forefront of technology and creativity.
                 </Text>
-                <Box h="3px" w="50px" bg={COLORS.white} mt="24px" />
+                <Box h="3px" w="50px" bg={COLORS.grey} mt="24px" />
               </GridItem>
               <GridItem data-aos="fade-up" data-aos-duration="2000">
                 <Text fontWeight={800} mb="16px">
                   Collaboration
                 </Text>
-                <Text color={COLORS.gray}>
+                <Text color={COLORS.grey}>
                   Fostering partnerships to bring ideas to life.
                 </Text>
-                <Box h="3px" w="50px" bg={COLORS.white} mt="24px" />
+                <Box h="3px" w="50px" bg={COLORS.grey} mt="24px" />
               </GridItem>
               <GridItem data-aos="fade-up" data-aos-duration="2000">
                 <Text fontWeight={800} mb="16px">
                   Passion
                 </Text>
-                <Text color={COLORS.gray}>
+                <Text color={COLORS.grey}>
                   Infusing every project with enthusiasm and dedication.
                 </Text>
-                <Box h="3px" w="50px" bg={COLORS.white} mt="24px" />
+                <Box h="3px" w="50px" bg={COLORS.grey} mt="24px" />
               </GridItem>
             </Grid>
           </Box>

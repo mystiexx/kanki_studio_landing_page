@@ -1,6 +1,8 @@
 import eric from "../assets/eric.jpeg";
 import eniola from "../assets/eniola.jpeg";
 import dennis from "../assets/dennis.jpeg";
+import ivy from "../assets/ivy.jpeg";
+import nam from "../assets/nam.jpeg";
 
 export const projects = [
   {
@@ -25,6 +27,11 @@ export const testimonialData = [
 
 export const team = [
   {
+    name: "Ockiya Cliff",
+    position: "Founder",
+    image: ivy,
+  },
+  {
     name: "eric afes",
     position: "Chief Technology Officer",
     image: eric,
@@ -38,5 +45,10 @@ export const team = [
     name: "Dennis Ebisintei",
     position: "Business/Marketing Director",
     image: dennis,
+  },
+  {
+    name: "Nnamene kenechukwu",
+    position: "Creative director / animator",
+    image: nam,
   },
 ];

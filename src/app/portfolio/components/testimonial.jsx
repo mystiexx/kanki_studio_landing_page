@@ -31,7 +31,7 @@ const Testimonial = () => {
         textAlign="left"
         fontSize={12}
         mt="7px"
-        color={COLORS.gray}
+        color={COLORS.grey}
         data-aos="fade-left"
         data-aos-duration="2000"
       >
@@ -58,8 +58,6 @@ const Testimonial = () => {
                   key={idx}
                   display={idx === currentIndex ? "block" : "none"}
                   transform={`translateX(${(idx - currentIndex) * 100})`}
-                  data-aos="fade-up"
-                  data-aos-duration="2000"
                 >
                   <TestimonialCard content={data} />
                 </Box>
@@ -74,7 +72,7 @@ const Testimonial = () => {
                   w="10px"
                   h="10px"
                   borderRadius={"full"}
-                  bg={idx === currentIndex ? COLORS.dark : COLORS.gray}
+                  bg={idx === currentIndex ? COLORS.dark : COLORS.grey}
                   onClick={() => handleChange(idx)}
                 />
               ))}

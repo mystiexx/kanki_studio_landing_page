@@ -15,7 +15,7 @@ const Navbar = () => {
       w="full"
       bg={COLORS.primary}
       zIndex={1}
-      borderBottom={`0.5px solid ${COLORS.gray}`}
+      borderBottom={`0.5px solid ${COLORS.grey}`}
     >
       <Mobile isOpen={isOpen} onClose={() => setIsOpen(!isOpen)} />
       <Container
@@ -36,7 +36,13 @@ const Navbar = () => {
           _selected={{ bg: "transparent" }}
           onClick={() => setIsOpen(!isOpen)}
         />
-        <Text fontWeight={900}>Kanki</Text>
+        <Text
+          fontWeight={900}
+          bgGradient={`linear(to-l, ${COLORS.orange}, ${COLORS.orange_50}, ${COLORS.yellow})`}
+          bgClip={"text"}
+        >
+          Kanki
+        </Text>
 
         <Box
           display={{ base: "none", md: "flex" }}

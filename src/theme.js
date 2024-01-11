@@ -6,7 +6,7 @@ export const Theme = extendTheme({
       body: {
         backgroundColor: "#1C334B",
         fontFamily: "JetBrains Mono",
-        color: "#fff",
+        color: "#FFFFFF",
         overflowX: "hidden",
       },
     }),
