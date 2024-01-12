@@ -3,6 +3,8 @@ import React from "react";
 import { FaFacebookF } from "react-icons/fa6";
 import { IoLogoTiktok } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,9 +18,27 @@ const Footer = () => {
         gap={{ base: "40px", md: "none" }}
       >
         <Text fontSize={20} fontWeight={"bold"}>
-          Kanki
+          Kanki Studio
         </Text>
         <Box display={"flex"} gap="20px" alignItems={"center"}>
+          <a
+            href="https://www.linkedin.com/company/kanki-studios/"
+            target={"_blank"}
+            rel="noreferrer noopener"
+          >
+            {" "}
+            <FaLinkedin color="#BFBEC2" size={20} />{" "}
+          </a>
+
+          <a
+            href="https://youtube.com/@kankistudios4901?si=Px3RUESeFfcqLyC7"
+            target={"_blank"}
+            rel="noreferrer noopener"
+          >
+            {" "}
+            <FaYoutube color="#BFBEC2" size={20} />{" "}
+          </a>
+
           <a
             href="https://www.facebook.com/profile.php?id=100089678880758&mibextid=LQQJ4d"
             target={"_blank"}

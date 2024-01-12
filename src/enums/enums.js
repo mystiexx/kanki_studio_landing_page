@@ -3,6 +3,7 @@ import eniola from "../assets/eniola.jpeg";
 import dennis from "../assets/dennis.jpeg";
 import ivy from "../assets/ivy.jpeg";
 import nam from "../assets/nam.jpeg";
+import enola from "../assets/enola.jpeg";
 
 export const projects = [
   {
@@ -28,7 +29,7 @@ export const testimonialData = [
 export const team = [
   {
     name: "Ockiya Cliff",
-    position: "Founder",
+    position: "CEO/Founder",
     image: ivy,
   },
   {
@@ -40,6 +41,11 @@ export const team = [
     name: "Eniola Victor Ayodele",
     position: "Art Director",
     image: eniola,
+  },
+  {
+    name: "Roland Enola",
+    position: "Software Engineer - Frontend",
+    image: enola,
   },
   {
     name: "Dennis Ebisintei",

@@ -13,9 +13,10 @@ const Navbar = () => {
     <Box
       position={"fixed"}
       w="full"
-      bg={COLORS.primary}
+      bg={COLORS.primary_65}
       zIndex={1}
       borderBottom={`0.5px solid ${COLORS.grey}`}
+      // opacity={'0.65'}
     >
       <Mobile isOpen={isOpen} onClose={() => setIsOpen(!isOpen)} />
       <Container
@@ -41,7 +42,7 @@ const Navbar = () => {
           bgGradient={`linear(to-l, ${COLORS.orange}, ${COLORS.orange_50}, ${COLORS.yellow})`}
           bgClip={"text"}
         >
-          Kanki
+          Kanki Studio
         </Text>
 
         <Box
