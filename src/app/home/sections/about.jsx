@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-import { Container, Text, Box, Image } from "@chakra-ui/react";
+import { Container, Text, Box } from "@chakra-ui/react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import banner from "../../../assets/kanki_banner.jpeg";
 
 const About = () => {
   useEffect(() => {
@@ -10,7 +9,6 @@ const About = () => {
   }, []);
   return (
     <Box h={{ base: "70vh", md: "auto" }} pt="50px" pb="200px">
-      <Image src={banner} w="full" />
       <Container maxW="container.xl" pt="50px">
         <Text
           fontSize={{ base: 40, md: 70 }}

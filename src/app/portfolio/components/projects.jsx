@@ -73,7 +73,7 @@ const Projects = () => {
         <div className={styles.card_wrapper} ref={sliderRef}>
           {projects.map((data, idx) => (
             <Box data-aos="fade-up" data-aos-duration="2000" key={idx}>
-              <ProjectCard title={data.title} />
+              <ProjectCard title={data.title} data={data} />
             </Box>
           ))}
         </div>

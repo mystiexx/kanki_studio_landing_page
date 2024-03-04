@@ -1,4 +1,4 @@
-import { Avatar, Box, Center, Text } from "@chakra-ui/react";
+import { Avatar, Box, Center, Text, Image } from "@chakra-ui/react";
 import React from "react";
 import { COLORS } from "../../enums/colors";
 
@@ -29,10 +29,13 @@ export const TeamCard = ({ content }) => {
   );
 };
 
-export const ProjectCard = ({ title }) => {
+export const ProjectCard = ({ title, data }) => {
   return (
     <Box>
-      <Box h="250px" bg={COLORS.grey} w="700px"></Box>
+      {data?.image ? <Box w='700px'>
+        <Image src={data.image} h='250px' w='full' objectFit={'cover'} />  </Box> :
+        <Box h="250px" bg={COLORS.grey} w="700px"></Box>
+      }
       <Text mt="12px" fontSize={14} color={COLORS.grey}>
         {title}
       </Text>

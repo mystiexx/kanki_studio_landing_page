@@ -4,13 +4,17 @@ import dennis from "../assets/dennis.jpeg";
 import ivy from "../assets/ivy.jpeg";
 import nam from "../assets/nam.jpeg";
 import enola from "../assets/enola.jpeg";
+import omari from '../assets/omari_new.jpg'
+import omari_ai from '../assets/omari.jpg'
 
 export const projects = [
   {
     title: "Omari - The Genesis",
+    image: omari,
   },
   {
     title: "Omari - AI",
+    image: omari_ai
   },
   {
     title: "Veil of Shadows",
